@@ -1,0 +1,26 @@
+.container-tip{        
+    width: 300px;
+    height: 350px;
+    background: #fff;
+    overflow: hidden;  
+    text-align: center;
+    padding: 10px;
+    border-bottom: 10px solid rgb(30, 255, 0);
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.568) ;
+    margin: 0px 10px 20px 10px;
+
+    .img-tip {
+        img {
+            width: 150px;
+            height: 100px;
+            border-radius: 10px;
+            margin: -5px 0px 0px 0px;
+        }
+    }
+
+    .content-tip {
+        padding: 10px;
+    }
+
+}

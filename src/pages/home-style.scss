@@ -1,72 +1,28 @@
 .gridtemplate{
-    text-align: center;
-    display: grid;
-    grid-template-areas: 
-    'banner banner banner banner'
-    'cont1 cont2 cont3 cont4';   
+    align-items: right;
+    display: flex;
+    width: 100%; 
+    flex-wrap: wrap;
+    border: solid 2px yellow;
+    padding: 10px;
+    margin: 0 auto;
 }
 
 .image-banner {
-    background: url(https://eac.int/images/COVID-19/coronavirus-banner.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 400px;
-}
-
-
-.banner{
-    grid-area: banner;
-}
-
-.content1{
-    grid-area: cont1;
-    
-}
-
-.content2{
-    grid-area: cont2;
-    
-}
-
-.content3{
-    grid-area: cont3;
-    
-}
-
-.content4{
-    grid-area: cont4;
-    
-}
-
-
-.container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    
-}
-
-.content1, .content2, .content3, .content4{
-    margin: 10px;
-    width: 310px;
-    height: 350px;
-}
-
-h1{
+    height: 100%;
+    width: 100%;
     text-align: center;
-    margin-top: 30px;
+    position: absolute;
+    border: solid 2px blue;
 }
 
-img{
-    width: 310px;
+.title-h2{
+    position: relative;
+    text-align: center;
+    display: flex;
 }
 
-.tx-info, h3 {
-    margin: 5px 0px;
-    text-align: left;
+.divNews{
+    margin-top: 50%;
 }
-
-.tx-info2{
-    text-align: left;
-    color: rgba(0, 0, 0, 0.493);
-}
+//paramos aqui...

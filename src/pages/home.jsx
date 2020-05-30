@@ -1,7 +1,8 @@
 import React from 'react';
-
+import Banner from '../images/banner-covid.png'
 import News from '../components/News/News'
 import './home-style.scss';
+import Rodape from '../images/rodape.png';
 
 ///import Teste from './teste';
 
@@ -11,14 +12,13 @@ const Home = () => {
         <div>
             <h1>Welcome to Covid-News</h1>
             <div>
-                <section className='gridtemplate'>
-                    <div className='banner'>
-                        <div className="image-banner">
-                            <img src='https://eac.int/images/COVID-19/coronavirus-banner.jpg'/>
-                            <h2>Coronavirus pandemic</h2>
-                        </div>
-                    </div>
+                <header>    
+                    <img src={Banner} />
+                </header>
 
+                <section>
+                    <div>
+                        <h2 className= 'title-news'>News</h2>
                     <div className='divNews'>
                     <News newsImg="https://ichef.bbci.co.uk/wwfeatures/live/1600_900/images/live/p0/8d/hz/p08dhzgp.jpg"
                     newsTitle='Why singing can make you feel better in lockdown'
@@ -41,7 +41,12 @@ const Home = () => {
                     newsFooter='WORK SAFE'
                     />
                     </div>
+                    </div>
                 </section>
+            </div>
+
+            <div className="img-background">
+                <img src={Rodape} alt="COVID-19" />
             </div>
         </div>
     )

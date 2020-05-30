@@ -3,8 +3,7 @@ import './News-style.css'
 
 const News = ({newsImg, newsTitle, newsTx, newsFooter}) => {
     return (
-        <div className="container">
-        
+        <div className="news-container">
             <div className='content1'>
                 <span className='tx-span'><strong>|</strong> {newsFooter}</span>
                 <div >

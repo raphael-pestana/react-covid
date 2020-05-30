@@ -2,11 +2,12 @@ import React from 'react';
 
 import TipsComponent from '../components/tips/tipComponent';
 import './tips-style.scss'
+import Rodape from '../images/rodape.png';
 
 const Tips = () => {
     return(
         <div>
-            <div className="titleStyle">
+            <div className="title-style">
                 <h1> Health Tips </h1>
             </div>
             <div className="main-container">
@@ -54,7 +55,10 @@ const Tips = () => {
                 Why? Only healthcare professionals and people who have symptoms similar to the new coronavirus need to wear masks. The function of the masks is to contain the spread of the virus in those who are already infected. WHO recommends the rational use of masks."
                 />
             </div>
-            
+
+            <div className="img-background">
+                <img src={Rodape} alt="COVID-19" />
+            </div>            
 
         </div>
     )

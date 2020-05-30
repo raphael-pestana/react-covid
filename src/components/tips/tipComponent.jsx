@@ -5,7 +5,7 @@ import './tipComponent.scss';
 
 const TipsComponent = ({title, image, content}) => {
     return(
-        <div>
+        <div className="main-tips">
             <div className="container-tip">
                 <h1> {title} </h1>
 

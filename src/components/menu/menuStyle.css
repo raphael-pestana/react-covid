@@ -7,11 +7,11 @@
   border-radius: 50%;
   box-shadow: 0 0 4px 5px rgba(0, 0, 0, 0.2);
   cursor: pointer;
-  height: 400px;
+  height: 350px;
   left: -200px;
   position: absolute;
   top: -200px;
-  width: 400px;
+  width: 350px;
   transform: translateX(-200px) translateY(-200px);
   transition: transform 300ms;
 }
@@ -51,34 +51,34 @@
   clip-path: polygon(200px 200px, 450px 0, 450px 344px);
 }
 .trackerIcon {
-  left: 216px;
+  left: 209px;
   position: absolute;
-  top: 330px;
+  top: 290px;
   width: 46px;
 }
 .fa-chart-bar {
   color: rgb(255, 255, 255);
-  font-size: 33pt;
+  font-size: 26pt;
 }
 .tipsIcon {
-  left: 287px;
+  left: 262px;
   position: absolute;
-  top: 287px;
+  top: 262px;
   width: 46px;
 }
 .fa-plus-circle {
   color: rgb(255, 255, 255);
-  font-size: 34pt;
+  font-size: 26pt;
 }
 .homeIcon {
-  left: 324px;
+  left: 288px;
   position: absolute;
-  top: 216px;
+  top: 209px;
   width: 46px;
 }
 .fa-home {
   color: rgb(255, 255, 255);
-  font-size: 33pt;
+  font-size: 26pt;
 }
 .menu {
   -webkit-tap-highlight-color: transparent;
@@ -86,19 +86,19 @@
   border-radius: 50%;
   box-shadow: 0 0 4px 5px rgba(0, 0, 0, 0.2);
   cursor: pointer;
-  height: 200px;
+  height: 170px;
   left: -100px;
   position: absolute;
   top: -100px;
-  width: 200px;
+  width: 170px;
 }
 .hamburger {
   cursor: pointer;
-  height: 46px;
-  left: 58%;
+  height: 40px;
+  left: 61.5%;
   position: relative;
-  top: 58%;
-  width: 46px;
+  top: 61.5%;
+  width: 40px;
 }
 .title {
   color: white;
